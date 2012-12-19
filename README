@@ -1,0 +1,4 @@
+ln -s projects/dotfiles/mybashrc $HOME/.mybashrc
+ln -s projects/dotfiles/aliases $HOME/.aliases
+
+echo "source \$HOME/.mybashrc" >> $HOME/.bashrc

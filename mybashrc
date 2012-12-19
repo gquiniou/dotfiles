@@ -1,0 +1,10 @@
+export HISTCONTROL=ignoreboth
+export HISTSIZE=100000
+export HISTIGNORE=ls:l:la:lt:cd:pwd:exit:bg:fg
+export PROMPT_COMMAND='history -a'
+
+shopt -s histappend
+
+export PATH=/home/greg/bin:$PATH
+
+source .aliases
