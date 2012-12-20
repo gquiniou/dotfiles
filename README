@@ -1,4 +1,9 @@
-ln -s projects/dotfiles/mybashrc $HOME/.mybashrc
-ln -s projects/dotfiles/aliases $HOME/.aliases
+Installation instructions  :
+
+
+mkdir $HOME/projects/dotfiles
+
+ln -s $HOME/projects/dotfiles/mybashrc $HOME/.mybashrc
+ln -s $HOME/projects/dotfiles/aliases $HOME/.aliases
 
 echo "source \$HOME/.mybashrc" >> $HOME/.bashrc

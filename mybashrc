@@ -7,4 +7,4 @@ shopt -s histappend
 
 export PATH=/home/greg/bin:$PATH
 
-source .aliases
+source $HOME/.aliases
