@@ -2,7 +2,8 @@ Installation instructions  :
 
 
 mkdir $HOME/projects/dotfiles
-
+cd $HOME/projects/dotfiles
+git clone git@github.com:gquiniou/dotfiles.git
 ln -s $HOME/projects/dotfiles/mybashrc $HOME/.mybashrc
 ln -s $HOME/projects/dotfiles/aliases $HOME/.aliases
 
