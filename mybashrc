@@ -5,6 +5,6 @@ export PROMPT_COMMAND='history -a'
 
 shopt -s histappend
 
-export PATH=/home/greg/bin:$PATH
+export PATH=$HOME/bin:$PATH
 
 source .aliases
