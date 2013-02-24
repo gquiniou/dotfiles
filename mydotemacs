@@ -1,0 +1,4 @@
+;; -*- mode: emacs-lisp; -*-
+(set-face-attribute 'default nil :height 110)
+(setq vc-make-backup-files t)
+(setq inhibit-startup-screen t)
