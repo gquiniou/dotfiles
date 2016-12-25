@@ -2,3 +2,7 @@
 (set-face-attribute 'default nil :height 110)
 (setq vc-make-backup-files t)
 (setq inhibit-startup-screen t)
+
+(add-to-list 'load-path "~/projects/dotfiles/rust-mode/")
+(autoload 'rust-mode "rust-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
