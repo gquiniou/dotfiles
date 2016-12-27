@@ -1,2 +1,3 @@
 #export GIT_PROXY_COMMAND="$HOME/bin/proxy-wrapper"
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/greg/devpt/libs/SFML2/lib
+export PATH="$HOME/.cargo/bin:$PATH"
