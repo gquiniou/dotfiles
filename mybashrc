@@ -5,6 +5,8 @@ export PROMPT_COMMAND='history -a'
 
 shopt -s histappend
 
+stty -ixon
+
 export PATH=$HOME/bin:$PATH
 
 source $HOME/.aliases
