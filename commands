@@ -1,0 +1,5 @@
+#installed packages by size
+dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
+
+#purge removed packages
+dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
