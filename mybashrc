@@ -1,3 +1,5 @@
+# -*- mode: shell-script; -*-
+
 export HISTCONTROL=ignoreboth
 export HISTSIZE=100000
 export HISTIGNORE=ls:l:la:lt:cd:pwd:exit:bg:fg
@@ -12,3 +14,8 @@ export PATH=$HOME/bin:$PATH
 source $HOME/.aliases
 
 source $HOME/.myenv
+
+if command -v starship &> /dev/null
+then
+   eval "$(starship init bash)"
+fi
