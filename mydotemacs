@@ -1,7 +1,16 @@
 ;; -*- mode: emacs-lisp; -*-
+
 (set-face-attribute 'default nil :height 110)
 (setq vc-make-backup-files t)
 (setq inhibit-startup-screen t)
+
+; keep the position of the cursor after editing
+(if (fboundp #'save-place-mode)
+    (save-place-mode +1)
+    (setq-default save-place t))
+
+; utf8
+(prefer-coding-system 'utf-8)
 
 (add-to-list 'load-path "~/projects/dotfiles/rust-mode/")
 (autoload 'rust-mode "rust-mode" nil t)
