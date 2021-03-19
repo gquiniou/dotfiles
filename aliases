@@ -1,12 +1,12 @@
-alias l='ls -lF --color=auto'
-alias la='ls -lAF --color=auto'
+alias l='ls -lhF --color=auto'
+alias la='ls -lhAF --color=auto'
 alias ls='ls -F --color=auto'
 
-alias lt='ls -ltF --color=auto'
-alias lat='ls -ltAF --color=auto'
+alias lt='ls -lhtF --color=auto'
+alias lat='ls -lhtAF --color=auto'
 
-alias lth='ls -ltF --color=auto | head -10'
-alias lath='ls -ltAF --color=auto | head -10'
+alias lth='ls -lhtF --color=auto | head -10'
+alias lath='ls -lhtAF --color=auto | head -10'
 
 
 alias h=history
