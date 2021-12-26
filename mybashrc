@@ -15,6 +15,12 @@ source $HOME/.aliases
 
 source $HOME/.myenv
 
+SRCHIGHLIGHT=/usr/share/source-highlight/src-hilite-lesspipe.sh
+if [ -f $SRCHIGHLIGHT ]; then 
+	export LESSOPEN="| $SRCHIGHLIGHT %s"
+	export LESS=' -R '
+fi
+
 if command -v starship &> /dev/null
 then
    eval "$(starship init bash)"
