@@ -1,6 +1,6 @@
 Installation instructions  :
 
-Optional: install [starship.rs](https://starship.rs)
+Optional: install [starship.rs](https://starship.rs) and/or source-highlight
 
 ```bash
 mkdir $HOME/projects/
